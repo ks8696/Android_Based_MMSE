@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MMSE</string>
+    <string name="start">START</string>
+    <string name="please_enter_your_name">Please Enter Details</string>
+    <string name="welcome">WELCOME</string>
+    <string name="image_here">Image Here</string>
+    <string name="_0_19">0/19</string>
+    <string name="submit">SUBMIT</string>
+    <string name="next"><![CDATA[NEXT ->]]></string>
+    <string name="prev"><![CDATA[<- PREV]]></string>
+    <string name="test">Test Again</string>
+    <string name="enter_patient_name_eg_rahul">Enter patient\'s name eg. Rahul</string>
+    <string name="enter_patient_age_eg_18">Enter patient\'s age eg. 18</string>
+    <string name="enter_doctor_s_name_eg_dr_rohit">Enter doctor\'s name eg. Dr. Rohit</string>
+    <string name="patient_details">Patient Details</string>
+    <string name="name">Name :</string>
+    <string name="rohit">Rohit</string>
+    <string name="kunal">Kunal</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white"
+    tools:context=".TestScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_margin="10dp"
+            android:padding="5sp"
+            android:textColor="#27374D"
+            android:gravity="center"
+            tools:text="Select the option related to the Image" />
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="355dp"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img"
+            android:contentDescription="@string/image_here" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="0dp"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:max="19"
+                android:minHeight="50dp"
+                android:progress="0"
+                android:indeterminate="false"
+                />
+            <TextView
+                android:id="@+id/progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:textColor="#9DB2BF"
+                android:text="@string/_0_19"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_margin="8dp"
+            android:padding="5sp"
+            android:textColor="#27374D"
+            android:gravity="center"
+            android:background="@drawable/default_specs"
+            tools:text="Option 1" />
+        <TextView
+            android:id="@+id/Option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_margin="8dp"
+            android:padding="5sp"
+            android:textColor="#27374D"
+            android:gravity="center"
+            android:background="@drawable/default_specs"
+            tools:text="Option 2" />
+        <TextView
+            android:id="@+id/Option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_margin="8dp"
+            android:padding="5sp"
+            android:textColor="#27374D"
+            android:gravity="center"
+            android:background="@drawable/default_specs"
+            tools:text="Option 3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <Button
+            android:id="@+id/bttn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:enabled="false"
+            android:text="@string/prev"
+            />
+        <Button
+            android:id="@+id/bttn3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:text="@string/next"
+            />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
